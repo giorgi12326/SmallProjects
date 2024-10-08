@@ -6,7 +6,7 @@ public class Bistro {
     public  Bistro(int n){
         seats = n;
 //        waiter = new Thread();
-//        waiter.start();
+//        waiter.star();
     }
     private synchronized void dine(int price) {
         while(seats <= 0) {
