@@ -1,4 +1,4 @@
-public class ThreadCount {
+public class TestThread {
     static final Object mutex = new Object();
     static boolean firstTurn = true;
     public static void main(String[] args) {
